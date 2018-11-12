@@ -1,9 +1,7 @@
 # FocusShift
 
         var onKey = $.onKey('KEY_UP', 'KEY_DOWN', 'KEY_LEFT', 'KEY_RIGHT', 'KEY_SELECT');
-        
         eg: onKey.currentItem
-
         window.document.onkeydown = function (event) {
         
                 var event = event || window.event;
